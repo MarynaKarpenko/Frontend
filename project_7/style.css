@@ -3,43 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html,
-body,
-.container {
-height: 100%;
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(181, 117, 240);
+    
 }
-.container {
-    display: flex;
+.item-2 {
+    position: absolute;
+    background-color: burlywood;
+    left: 40px;
+    top: 40px;
+    z-index: -1;  /*поместить на задний план*/
 }
-.container {
-    height: 100%;
-}
-.form {
-    width: 250px;
-    aspect-ratio: 1 / 2;
-    background: rgb(229, 229, 236);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 24px;
-    border: 1px solid none;
-}
-.left,
-.right {
-width: 50%;
-}
-.left {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-figure {
-    height: 100%;
-    width: 100%;
-    line-height: 0;
-}
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.item-3 {
+    background-color: darkgreen;
+    background-color: transparent;
+    background-color: blue;
+    opacity: 0.5; /*1 - не прозрачный, 0 - прозрачный*/
 }

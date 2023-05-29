@@ -3,93 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-section {
-    background-color: #EEEFF1;
-    padding: 100px 0; /* 100px - отступ сверху и снизу, 0 - по бокам */
-    font-family: 'Roboto', sans-serif;
+body {
+    display: flex;
+    justify-content: center;
 }
-.wrapper {
-    width: 30%;
-    margin: auto; /*auto - центрирует по центру */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    max-width: 800px;
 }
-h3 {
-    font-size: 32px; /*размер шрифта */
-    font-weight: 500;
-    /* line-height: 38px; жирность шрифта */
-    text-align: center; /*отцентрировать текст */
-    margin-bottom: 50px;
+figure {
+    line-height: 0;
+    width: calc(100% / 3 - 2px / 3);
 }
-p {
-    color: #727272;
-    text-align: center;
-    margin-bottom: 65px;
-}
-.form-control {
-  display: flex;
-  gap: 30px; /*отступ между эл внутри flex контейнера*/
-  margin-bottom: 20px;
-}
-input[type="text"], input[type="email"] {
-    width: 50%;
-    padding: 20px;
-    border: none; /*убираем границу*/
-    outline: none; /*убираем границу кот появл при нажатии, фокусе на блоке*/
-    caret-color: rgb(62, 62, 245); /*цвет курсора*/
-
-}
-input[type="text"]:focus {
-    border: 1px solid rgb(87, 87, 215);
-    /* border: 1px solid transparent; безцветный бордер */
-}
-textarea {
+img {
     width: 100%;
-    padding: 20px;
-    border: none;
-    outline: none;
 }
-input[type="submit"] {
-    display: block; /*делаем блочным эл*/
-    margin: 50px auto;
-    /* padding: 50px auto 0; 50px - сверху, auto - справа/слева, 0 - снизу */
-    background-color: #34547A;
-    padding: 20px 45px;
-    border: none;
-    outline: none;
-    color: white;
-    text-transform: uppercase; /*буквы в верхнем регистре заглавн*/
-    letter-spacing: 0.15em; /*отступ между буквами*/
-    margin-top: 20px;
-}
-input, textarea {
-    font-family: 'Roboto', sans-serif;
-}
-input::placeholder {
-/*меняет стили placeholder*/
-}
-/*
-focus - псевдоклас при нажатии на эл появляется бордер
-
-padding: 10px, 20px, 30px, 40px;
-1. top верх
-2. right право
-3. bottom низ
-4. left лево
-padding: 10px, 20px;
-1. top-bottom
-2. top-right
-padding: 10px, 20px, 30px;
-1. top верх
-2. left лево
-3. bottom низ
-
-.form-control {
-    только те input что лежат внутри div-form
-}
-
- селекторы
- 1. по тегу - h1-h6
- 2. по классу - .wrapper {}, .item {}
- 3. по id -#idName
- 4. по атрибуту input[type="text"], input[type="email"]
-
-*/
