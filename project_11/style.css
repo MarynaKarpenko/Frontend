@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+header {
+    background-color: #1ABC9C;
+    padding: 15px 0;
+}
+.wrapper {
+    width: calc(1372 / 1512 * 100%);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+.nav-link:not(:last-child) { 
+    margin-right: 20px;
+}
+.social-icon-img:not(:last-child) {
+    margin-right: 20px;
+}
+.social-icon-img {
+    text-decoration: none;
+}
+
+
+/*
+.nav-link:last-child - селектор для последнего
+.nav-link:not(:last-child) - селектор для всех, кроме последнего
+
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
