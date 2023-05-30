@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(181, 117, 240);
+    
+}
+.item-2 {
+    position: absolute;
+    background-color: burlywood;
+    left: 40px;
+    top: 40px;
+    z-index: -1;  /*поместить на задний план*/
+}
+.item-3 {
+    background-color: darkgreen;
+    background-color: transparent;
+    background-color: blue;
+    opacity: 0.5; /*1 - не прозрачный, 0 - прозрачный*/
+}
