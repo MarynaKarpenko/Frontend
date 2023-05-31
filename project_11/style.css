@@ -31,9 +31,76 @@ header {
 .social-icon-img {
     text-decoration: none;
 }
-
+/*блок "О нас"*/
+.about {
+    display: flex;
+    align-items: center;
+}
+.about-img {
+    width: 50%;
+}
+.about-info {
+    width: 50%;
+    padding: 0 65px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-text {
+    font-size: 20px; /* размер шрифта */
+    text-align: justify; /* выравнивание текста по ширине */
+}
+/*Наши проекты*/
+.projects {
+    background-color: #DCFFEB;
+    padding: 125px 0; /* 125px сверху/сниху, 0 справа/снизу */
+}
+.projects-wrapper {
+    width: calc(1372 / 1512 * 100%);
+    margin: auto;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.projects-list {
+    display: flex;
+    gap: 40px; /*работает только с flex*/
+}
+.project {
+    width: 33%;
+    aspect-ratio: 1.16/1; /* 1.16 ширина 1 высота или можно написать "ширина"/"высоту", напр. 436/378*/
+    background-image: url(./imeges/project-img.png);
+    background-size: 100%; /*картинка маштабируется под размеры блока*/
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.project-hover {
+    
+    }
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
 
 /*
+aspect-ration - соотношение сторон
+    aspect-ration: 100px 
+    aspect-ration: 1/1; ----> height = 100px
+    aspect-ration: 1/2; ----> height = 200px
+    aspect-ration: 1/1.5; ----> height = 150px
+
 .nav-link:last-child - селектор для последнего
 .nav-link:not(:last-child) - селектор для всех, кроме последнего
 
