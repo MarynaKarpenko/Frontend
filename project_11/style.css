@@ -78,20 +78,28 @@ h2 {
     background-size: 100%; /*картинка маштабируется под размеры блока*/
     display: flex;
     align-items: flex-end;
-    color: #FFFFFF;
 }
 .project-hover {
-    
+    padding: 30px 35px 15px; /*сверху, справа/слево, сниз*/
+    background: rgba(0, 0, 0, 0.38);
+    opacity: 0; /*прозрачность блока, для того, чтоб убрать текст и затемнение*/
     }
+    .project:hover .project-hover {
+        opacity: 1; /*при наведении менять на непрозрачность*/
+        transition: 1s;
+    }
+    /*.project:hover {
+        transform: scale(1.05);
+    }*/
 h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 24px;
+    color: #FFFFFF;
 }
-p {
+.project-hover-text {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    color: #FFFFFF;
 }
 
 /*
