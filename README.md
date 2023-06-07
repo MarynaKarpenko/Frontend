@@ -12,3 +12,5 @@
 # [Project_12](https://marynakarpenko.github.io/Frontend/project_12/index.html)
 # [Project_13](https://marynakarpenko.github.io/Frontend/project_13/index.html)
 # [Project_14](https://marynakarpenko.github.io/Frontend/project_14/index.html)
+# [Project_15](https://marynakarpenko.github.io/Frontend/project_15/index.html)
+# [Project_16](https://marynakarpenko.github.io/Frontend/project_16/index.html)
