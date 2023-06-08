@@ -95,26 +95,26 @@
 
 // Созд массив об users
 // у кадл польз будут свойства: email, log, age
-const users = [
-    {
-        name: "Arsen",
-        email: "arsen@gmail.com",
-        login: "LogArsenArsen",
-        age: 16
-    },
-    {
-        name: "Maryna",
-        email: "maryna@gmail.com",
-        login: "LogMarynaMaryna",
-        age: 30
-    },
-    {
-        name: "Nelli",
-        email: "nelli@gmail.com",
-        login: "LogNelliNelli",
-        age: 40
-    },
-]
+// const users = [
+//     {
+//         name: "Arsen",
+//         email: "arsen@gmail.com",
+//         login: "LogArsenArsen",
+//         age: 16
+//     },
+//     {
+//         name: "Maryna",
+//         email: "maryna@gmail.com",
+//         login: "LogMarynaMaryna",
+//         age: 30
+//     },
+//     {
+//         name: "Nelli",
+//         email: "nelli@gmail.com",
+//         login: "LogNelliNelli",
+//         age: 40
+//     },
+// ]
 
 // Отобразить в консоли login и email каждого пользователя в виде, используя цикл
 // for(let i = 0; i < users.length; i++) {
@@ -131,13 +131,13 @@ const users = [
 // }
 
 // созд новый массив и поместить  в него польз login возраст кот > 18
-const validatedUsers = []
-for(let i = 0; i < users.length; i++) {
-    if(users[i].age > 18) {
-   validatedUsers.push(users[i].login) // push - метод кот добавляет эл в конец массива
-    }
-}
-console.log(validatedUsers)
+// const validatedUsers = []
+// for(let i = 0; i < users.length; i++) {
+//     if(users[i].age > 18) {
+//    validatedUsers.push(users[i].login) // push - метод кот добавляет эл в конец массива
+//     }
+// }
+// console.log(validatedUsers)
 
 // const validatedUsers = [] //
 // for(let i = 0; i < users.length; i++) {
@@ -147,3 +147,38 @@ console.log(validatedUsers)
 // }
 // console.log(validatedUsers)
 
+// Задача. 
+// Есть массив объектов products. Нужно вывести в консоли имена только тех продуктов,
+// категория которых - TV
+// const products = [
+//     {
+//         name: "Acer",
+//         catalogy: "Laptop"
+//     },
+//     {
+//         name: "Samsung",
+//         catalogy: "TV"
+//     },
+//     {
+//         name: "Iphone 14",
+//         catalogy: "phone"
+//     },
+//     {
+//         name: "Panasonic",
+//         catalogy: "TV"
+//     },
+// ]
+
+// for(let i = 0; i < products.length; i++) {
+//     if(products[i].catalogy == "TV")
+//         console.log(products[i].name)
+    
+// }
+/*
+    length = 4
+    1. let i = 0, 0 < 4 - true, products[0].category == TV - false, i++
+    2. i = 1, 1 < 4 - true, products[1].category == TV - true, console.log("Samsung"), i++
+    3. i = 2, 2 < 4 - true, products[2].category == TV - false, i++,
+    4. i = 3, 3 < 4 - true, products[3].category == TV - true, console.log("Panasonic"), i++
+    5. i = 4, 4 < 4 - false, ВЫХОД из цикла
+*/
