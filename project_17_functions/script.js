@@ -128,16 +128,16 @@
 // Создать массив, в который положить все имена в верхнем регистре
 // В консоли отобразить итоговый массив 
 
-function printNames() {
-    const names = []
-    for(let i = 0; i < 3; i++) {
-        const name = prompt("Введите ваше имя")
-        const upperCasedName = name.toUpperCase()
-        names.push(upperCasedName)
-    }
-    console.log(names)
-}
-printNames()
+// function printNames() {
+//     const names = []
+//     for(let i = 0; i < 3; i++) {
+//         const name = prompt("Введите ваше имя")
+//         const upperCasedName = name.toUpperCase()
+//         names.push(upperCasedName)
+//     }
+//     console.log(names)
+// }
+// printNames()
 
 /*
     1. let i = 0; 0 < 3 - true, const name = prompt("Введите ваше имя") -> 
@@ -157,3 +157,9 @@ printNames()
 
     4. i = 3; 3 < 3 - false. 
 */
+
+// Task 2
+const number = 55
+for(let i = 55; i >= 20; i--) {
+    console.log(i)
+}

@@ -1,8 +1,11 @@
 // Масcивы и циклы
-// const names = ["Alexander", "Yulia", "Arsen"]
+function func_name() {
+    const names = ["Alexander", "Yulia", "Arsen"]
 
-// // В консоле отобр имя Юлия из масива names
-// console.log(names[1])
+    // В консоле отобр имя Юлия из масива names
+    console.log(names[1])
+}
+func_name()
 
 // // Создать масив в кот будут след часла - 10, 15, 0, 100, 21
 // // Отобр в консоли число 0
@@ -52,6 +55,30 @@
     3. булевый тип - true/false - правда или ложь, верно или неверно
     4. массив (объект)
 */
+
+// const fruit = ['Apple', 'Orange', 'Banana'];
+// console.log(fruit[0]); // Output: Apple
+// fruit[1] = 'Mango';
+// console.log(fruit[1]);
+
+// Nested Arrays
+
+// Создаем вложенный массив
+// const food = [
+//     ['Apple', 'Orange', 'Banana'],
+//     ['Strawberry', 'Blueberry', 'Raspberry'],
+//     ['Potato', 'Carrot', 'Broccoli'],
+//   ];
+// console.log(food[1][2]); // 2 строка, 3 элемент // Output: Raspberry
+// console.log(food[0][1]); // Output: Orange
+
+// .length() - длина - возвращает определенное количество строк в массиве
+
+// .push() - толкать - длобавляет один или несколько элементов в массиве и вощвращает новую длину
+
+// .reverse() - обеспечить регрес - изменяет порядок элементов в массиве
+
+
 
 
 // Циклы
@@ -171,14 +198,14 @@
 // console.log(numbers[i]) - каждый ел массива 
 
 // Task. Ксть массив строк. Нужно вывести в консоле каждую строку в верхнем регистре
-const countries = ["Germany", "France", "Spain", "Chech"]
-for(let i = 0; i < countries.length; i++) {
-    // console.log(countries[0].toUpperCase())
-    // console.log(countries[1].toUpperCase())
-    // console.log(countries[2].toUpperCase())
-    // console.log(countries[3].toUpperCase())
-    console.log(countries[i].toUpperCase())
-}
+// const countries = ["Germany", "France", "Spain", "Chech"]
+// for(let i = 0; i < countries.length; i++) {
+//     // console.log(countries[0].toUpperCase())
+//     // console.log(countries[1].toUpperCase())
+//     // console.log(countries[2].toUpperCase())
+//     // console.log(countries[3].toUpperCase())
+//     console.log(countries[i].toUpperCase())
+// }
 
 // for(let i = 0; i < countries.length; i++) {
 //     const upperCaseCountry = countries[i].toUpperCase()
@@ -204,3 +231,7 @@ name.toUpperCase() -- > "ARSEN"
 
 // names.length = 4
 // names.length - кол. эл в массиве
+
+// for (let i = 0; i < 4; i ++) {
+//   console.log(i);
+// }
