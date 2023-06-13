@@ -153,6 +153,3 @@ for (let i = 0; i < googleLink.length; i++) {
     googleLink[i].innerText = "Instagram"
     googleLink[i].setAttribute("href", "https://instagram.com")
 }
-
-
-
