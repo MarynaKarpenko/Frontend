@@ -1,9 +1,12 @@
 ### Project_1
 - [Project_1_code](https://marynakarpenko.github.io/Frontend/project_1/intex.html)
+- [Project_1_pages](project_1)
 ### Project_2
 - [Project_2_code](https://marynakarpenko.github.io/Frontend/project_2/intex.html)
+- [Project_2_pages](project_2)
 ### Project_3
 - [Project_3_code](https://marynakarpenko.github.io/Frontend/project_3/index.html)
+- [Project_3_pages](project_3)
 ### Project_4
 - [Project_4_code](https://marynakarpenko.github.io/Frontend/project_4/index.html)
 ### Project_5
@@ -40,3 +43,9 @@
 ### Project_20_TasksJS
 - [Project_20_TasksJS_code](https://marynakarpenko.github.io/Frontend/project_20_TasksJS/index.html)
 - [Project_20_TasksJS_pages](project_20_TasksJS)
+### Project_21
+- [Project_21_code](https://marynakarpenko.github.io/Frontend/project_21/index.html)
+- [Project_21_pages](project_21)
+### Project_22_DOM
+- [Project_22_DOM_code](https://marynakarpenko.github.io/Frontend/project_22_DOM/index.html)
+- [Project_22_DOM_pages](project_22_DOM)
