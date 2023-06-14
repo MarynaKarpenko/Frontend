@@ -51,4 +51,4 @@
 - [Project_22_DOM_pages](project_22_DOM)
   ### Project_23_Creating_DOM_Elements
 - [code](https://marynakarpenko.github.io/Frontend/project_23_Creating_DOM_Elements/index.html)
-- [pages](project_25_Creating_DOM_Elements)
+- [pages](project_23_Creating_DOM_Elements)
