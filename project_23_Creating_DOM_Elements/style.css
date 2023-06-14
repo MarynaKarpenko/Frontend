@@ -1,0 +1,22 @@
+.text {
+    font-size: 24px;
+    color: aqua;
+}
+.product {
+    width: 20%;
+    background-color: rgb(184, 160, 206);
+    padding: 30px;
+    margin: 10px;
+}
+h5 {
+    font-size: 28px;
+}
+p {
+    font-size: 20px;
+}
+.summa {
+    font-size: 30px;
+    background-color: rgb(198, 97, 171);
+    padding: 30px;
+    margin: 10px;
+}
