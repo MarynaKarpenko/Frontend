@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(34, 144, 187);
+}
+
+#area {
+    background: rgba(255, 255, 255, 0.792);
+    width: 400px;
+    aspect-ratio: 1;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+#object {
+    background: rgb(255, 0, 217);
+    width: 60px;
+    aspect-ratio: 1;
+    transform: translateY(-100%);
+    position: relative;
+    /* transition: 1s; */
+
+}
+
+#object.start {
+    /* transform: translateY(400px); */
+    animation-name: movement;   /* вызов анимации */
+    animation-duration: 1.5s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* анимация движения объекта */
+@keyframes movement {
+    to {
+        transform: translateY(400px);
+    }
+}

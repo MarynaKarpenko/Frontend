@@ -12,26 +12,26 @@
 
 // Function Declaration
 
-// function makeFood() {
-//     console.log("Нарезать овощи")
-//     console.log("Сварить овощи")
-//     console.log("Заправить овощи оливковым маслом")
-//     console.log("Перемешать овощи")
-// }
-// makeFood() // первый раз
-// makeFood() // вторай раз вызовет те же действия
+function makeFood() {
+    console.log("Нарезать овощи")
+    console.log("Сварить овощи")
+    console.log("Заправить овощи оливковым маслом")
+    console.log("Перемешать овощи")
+}
+makeFood() // первый раз
+makeFood() // вторай раз вызовет те же действия
 
 
 // Task 1. Создать функцию, которая получает имя пользователя, переводит его в верхний регистр
 // и в консоле отобр
 // "Привет, {переданное имя}"
 
-// function greeting(name) {
-//     const newName = name.toUpperCase()
-//     console.log("Hello, " + newName)
-// }
-// greeting("Maryna")
-// greeting("Pavel")
+function greeting(name) {
+    const newName = name.toUpperCase()
+    console.log("Hello, " + newName)
+}
+greeting("Maryna")
+greeting("Pavel")
 
 
 // Task 2. Создать функцию, которая получает два числовых параметра и в консоли выводит
@@ -40,41 +40,42 @@
 // в) произведение
 // г) деление
 
-// function calc(num1, num2) {
-//     console.log(num1 + num2)
-//     console.log(num1 - num2)
-//     console.log(num1 * num2)
-//     console.log(num1 / num2)
-// }
-// calc(100, 20)
-// calc(50, 5)
-// calc(3, 90)
+function calc(num1, num2) {
+    console.log(num1 + num2)
+    console.log(num1 - num2)
+    console.log(num1 * num2)
+    console.log(num1 / num2)
+}
+calc(100, 20)
+calc(50, 5)
+calc(3, 90)
 
 
 // Task 3. Создать функцию, которая получает два числа и в консоли выводит наибольшее из них
-// function findMax(num1, num2) {
-//     if(num1 > num2) {
-//         console.log(num1)
-//     } else if(num2 > num1) {
-//         console.log(num2)
-//     } 
-// }
-// findMax(1, 2) 
-// findMax(20, 20)
-// findMax(30, 40)
+
+function findMax(num1, num2) {
+    if(num1 > num2) {
+        console.log(num1)
+    } else if(num2 > num1) {
+        console.log(num2)
+    } 
+}
+findMax(1, 2) 
+findMax(20, 20)
+findMax(30, 40)
 
 
 // Task 4. Создать цикл, кот выводит в конс числа от 0 до 9.
-// Создать функцию кот принимает и выводит все часла от 0 до этого числа
+// Создать функцию кот принимает и выводит все числа от 0 до этого числа
 // которое принимает в параменте
 
-// function printNumbers(number) {
-//     for(let i = 0; i <= number; i++) { 
-//         console.log(i)
-//     }
-// }
-// printNumbers(30)
-// printNumbers(3)
+function printNumbers(number) {
+    for(let i = 0; i <= number; i++) { 
+        console.log(i)
+    }
+}
+printNumbers(30)
+printNumbers(3)
 
 // Task 5. Создать функцию, которая принимает массив и отображает каждый элемент массива 
 // в консоли
@@ -159,7 +160,7 @@
 */
 
 // Task 2
-const number = 55
-for(let i = 55; i >= 20; i--) {
-    console.log(i)
-}
+// const number = 55
+// for(let i = 55; i >= 20; i--) {
+//     console.log(i)
+// }

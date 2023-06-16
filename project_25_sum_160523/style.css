@@ -1,0 +1,7 @@
+.is-dark {
+    background: rgba(11, 11, 11, 0.849);
+    color: white;
+}
+body {
+    transition: .5s;
+}
