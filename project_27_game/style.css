@@ -29,7 +29,7 @@ body {
 #object.start {
     /* transform: translateY(400px); */
     animation-name: movement;   /* вызов анимации */
-    animation-duration: 1.5s; 
+    animation-duration: 2.5s; 
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
