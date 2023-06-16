@@ -5,6 +5,9 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgb(34, 144, 187);
 }
 
@@ -32,6 +35,20 @@ body {
     animation-duration: 2.5s; 
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* анимация движения объекта */

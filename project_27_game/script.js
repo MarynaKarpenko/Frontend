@@ -6,7 +6,7 @@ function start_game() {
 function finish_game() {
     // console.log('finish game works');
     object.classList.remove('start')
-    alert(`You lose. Score ${score}`)
+    // alert(`You lose. Score ${score}`)
 }
 
 function hit() {
