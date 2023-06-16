@@ -52,3 +52,9 @@
 ### Project_23_Creating_DOM_Elements
 - [code](https://marynakarpenko.github.io/Frontend/project_23_Creating_DOM_Elements/index.html)
 - [pages](project_23_Creating_DOM_Elements)
+### Project_24
+- [code](https://marynakarpenko.github.io/Frontend/project_24/index.html)
+- [pages](project_24)
+### Project_27_game
+- [code](https://marynakarpenko.github.io/Frontend/project_27_game/index.html)
+- [pages](project_27_game)
