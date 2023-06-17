@@ -80,6 +80,7 @@
 const redButton = document.querySelector(".red-btn")
 
 redButton.addEventListener("click", function () {
+    document.body.style.backgroundImage = "none"
     document.body.style.backgroundColor = "#F08080";
     redButton.style.backgroundColor = "red";
     redButton.style.color = "black"
@@ -89,6 +90,7 @@ redButton.addEventListener("click", function () {
 const greenButton = document.querySelector(".green-btn")
 
 greenButton.addEventListener("click", function () {
+    document.body.style.backgroundImage = "none"
     document.body.style.backgroundColor = "#00FF7F";
     greenButton.style.backgroundColor = "green";
     greenButton.style.color = "black"
@@ -98,6 +100,7 @@ greenButton.addEventListener("click", function () {
 const blueButton = document.querySelector(".blue-btn")
 
 blueButton.addEventListener("click", function () {
+    document.body.style.backgroundImage = "none"
     document.body.style.backgroundColor = "#00CED1";
     blueButton.style.backgroundColor = "blue";
     blueButton.style.color = "black"
@@ -107,6 +110,7 @@ blueButton.addEventListener("click", function () {
 const yellowButton = document.querySelector(".yellow-btn")
 
 yellowButton.addEventListener("click", function () {
+    document.body.style.backgroundImage = "none"
     document.body.style.backgroundColor = "#FFEFD5";
     yellowButton.style.backgroundColor = "yellow";
     yellowButton.style.color = "black"

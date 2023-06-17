@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    gap: 20px; /* отступы между элементами */
+    margin: 50px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    /* transition: 2s; */
+    transition-property: /*width, hight,*/ transform; /* позволяет указать функуию по кот будет меняться анимация*/
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+.box:hover {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /* rotate: ; функция определяет поворот какого-то элемента */
+     transform: rotate(150deg); /* поворот элимента deg - градусы, чем больше, тем больше поворот */
+}
