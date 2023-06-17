@@ -8,8 +8,8 @@
 - [code](https://marynakarpenko.github.io/Frontend/Project_aspect-ration/index.html)
 - [pages](Project_aspect-ration)
 ### Project_auto
-- [code](https://marynakarpenko.github.io/Frontend/Project_aspect-ration/index.html)
-- [pages](Project_aspect-ration)
+- [code](https://marynakarpenko.github.io/Frontend/project_Auto/index.html)
+- [pages](project_Auto)
 ### Project_background_change
 - [code](https://marynakarpenko.github.io/Frontend/Project_background_change/index.html)
 - [pages](Project_background_change)
@@ -19,7 +19,7 @@
 ### Project_Project_DOM
 - [code](https://marynakarpenko.github.io/Frontend/Project_DOM/index.html)
 - [pages](Project_DOM)
-### Project_Creating_DOM_Elements
+### Project_creating_DOM_Elements
 - [code](https://marynakarpenko.github.io/Frontend/Project_Creating_DOM_Elements/index.html)
 - [pages](Project_Creating_DOM_Elements)
 ### Project_events_and_their_handling
@@ -71,8 +71,14 @@
 - [code](https://marynakarpenko.github.io/Frontend/Project_tables/intex.html)
 - [pages](Project_tables)
 ### Project_tasksJS
-- [code](https://marynakarpenko.github.io/Frontend/Project_aspect-ration/index.html)
-- [pages](Project_aspect-ration)
+- [code](https://marynakarpenko.github.io/Frontend/Project_tasksJS/index.html)
+- [pages](Project_tasksJS)
+### Project_tasksJS_1
+- [code](https://marynakarpenko.github.io/Frontend/Project_tasksJS_1/index.html)
+- [pages](Project_tasksJS_1)
+### Project_tasksJS_sum
+- [code](https://marynakarpenko.github.io/Frontend/Project_tasksJS_sum/index.html)
+- [pages](Project_tasksJS_sum)
 ### Project_variable
 - [code](https://marynakarpenko.github.io/Frontend/Project_variable/index.html)
 - [pages](Project_variable)
