@@ -13,7 +13,7 @@
 ### Project_background_change
 - [code](https://marynakarpenko.github.io/Frontend/Project_background_change/index.html)
 - [pages](Project_background_change)
-### Project_background_characters
+### Project_characters
 - [code](https://marynakarpenko.github.io/Frontend/Project_characters/index.html)
 - [pages](Project_characters)
 ### Project_Project_DOM
