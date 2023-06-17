@@ -45,7 +45,7 @@ let users = [
         email: 'ivan56@example.org'
     },
 ];
-console.log(users[2].age);
+console.log(users[users.length - 1].age);
 }
 func_name1();
 
@@ -86,6 +86,31 @@ function flyTime(h) {
 return h % 24
 }
 console.log(flyTime(30))
+
+
+// второй вариант
+
+function calculateReturnTime() {
+    const flightHours = +prompt("Введите количество часов полета:");
+    const returnTime = flightHours % 24;
+    console.log(returnTime);
+  } 
+
+
+  // Task 7. Напишите функцию, которая получает массив различных чисел
+// (положительных и отрицательных) и возвращает массив отрицательных чисел
+
+function getNegativeNumbers(numbers) {
+    const negativeNumbers = [];
+  
+    for (let i = 0; i < numbers.length; i++) {
+      if (numbers[i] < 0) {
+        negativeNumbers.push(numbers[i]);
+      }
+    }
+  
+    return negativeNumbers;
+  }
 
 
 // Task 8. Написать функцию, которая принимает товары 
@@ -163,3 +188,20 @@ let players = [
 }
 ];
 console.log(compareUserPlayers(players));
+
+
+// второй вариант
+// const players = [
+//     { name: "Player 1", damage: 50 },
+//     { name: "Player 2", damage: 70 }
+//   ];
+  
+//   if (players[0].damage > players[1].damage) {
+//     console.log(`${players[0].name} имеет больше шансов на победу`);
+  
+//   } else if (players[0].damage < players[1].damage) {
+//     console.log(`${players[1].name} имеет больше шансов на победу`);
+  
+//   } else {
+//     console.log("У обоих игроков одинаковый урон");
+//   }
