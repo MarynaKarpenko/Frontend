@@ -1,6 +1,6 @@
-### Project_1
-- [Project_1_code](https://marynakarpenko.github.io/Frontend/project_1/intex.html)
-- [Project_1_pages](project_1)
+### Project_aspect-ration
+- [code](https://marynakarpenko.github.io/Frontend/020623_aspect-ration/index.html)
+- [pages](020623_aspect-ration)
 ### Project_2
 - [Project_2_code](https://marynakarpenko.github.io/Frontend/project_2/intex.html)
 - [Project_2_pages](project_2)
