@@ -35,7 +35,7 @@
 - [code](https://marynakarpenko.github.io/Frontend/Project_focus/index.html)
 - [pages](Project_focus)
 ### Project_functions
-- [Project_8_code](https://marynakarpenko.github.io/Frontend/Project_functions/index.html)
+- [code](https://marynakarpenko.github.io/Frontend/Project_functions/index.html)
 - [pages](Project_functions)
 ### Project_game
 - [code](https://marynakarpenko.github.io/Frontend/Project_game/index.html)
