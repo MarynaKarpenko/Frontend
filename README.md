@@ -31,7 +31,7 @@
 ### Project_flex_sum
 - [code](https://marynakarpenko.github.io/Frontend/Project_flex_sum/index.html)
 - [pages](Project_flex_sum)
-### Project_flex_focus
+### Project_focus
 - [code](https://marynakarpenko.github.io/Frontend/Project_focus/index.html)
 - [pages](Project_focus)
 ### Project_functions
