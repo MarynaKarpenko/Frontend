@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section {
+    width: 30%;
+    padding: 20px;
+    flex-direction: column;
+}
+button {
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(64, 156, 106);
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+button:hover {
+    background-color: rgb(116, 27, 103);
+}
+button:active {
+    transform: scale(1.05);
+}
+.img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* div {
+    background-color: green; цвет фона
+    background-image: url(./images/img1.jpg); картинка фона
+    background: url(./images/img1.jpg) green; фон (и цвет, и картинка, и размер фона)
+} */

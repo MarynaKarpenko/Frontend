@@ -89,7 +89,7 @@ redButton.addEventListener("click", function () {
 
 const greenButton = document.querySelector(".green-btn")
 
-greenButton.addEventListener("click", function () {
+greenButton.addEventListener("click", function () {  // greenButton - слушатель событий
     document.body.style.backgroundImage = "none"
     document.body.style.backgroundColor = "#00FF7F";
     greenButton.style.backgroundColor = "green";
