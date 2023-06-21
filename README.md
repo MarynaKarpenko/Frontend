@@ -1,3 +1,6 @@
+### Project
+- [code](https://marynakarpenko.github.io/Frontend/Project/index.html)
+- [pages](Project)
 ### Project_animation
 - [code](https://marynakarpenko.github.io/Frontend/Project_animation/index.html)
 - [pages](Project_animation)
@@ -22,6 +25,9 @@
 ### Project_creating_DOM_Elements
 - [code](https://marynakarpenko.github.io/Frontend/Project_Creating_DOM_Elements/index.html)
 - [pages](Project_Creating_DOM_Elements)
+### Project_event_cycle_second_option
+- [code](https://marynakarpenko.github.io/Frontend/Project_event_cycle_second_option/index.html)
+- [pages](Project_event_cycle_second_option)
 ### Project_events_and_their_handling
 - [code](https://marynakarpenko.github.io/Frontend/Project_events_and_their_handling/index.html)
 - [pages](Project_events_and_their_handling)
@@ -34,6 +40,12 @@
 ### Project_focus
 - [code](https://marynakarpenko.github.io/Frontend/Project_focus/index.html)
 - [pages](Project_focus)
+### Project_forEach()
+- [code](https://marynakarpenko.github.io/Frontend/Project_forEach()/index.html)
+- [pages](Project_forEach())
+### Project_form_processing
+- [code](https://marynakarpenko.github.io/Frontend/Project_form_processing/index.html)
+- [pages](Project_form_processing)
 ### Project_functions
 - [code](https://marynakarpenko.github.io/Frontend/Project_functions/index.html)
 - [pages](Project_functions)
