@@ -7,13 +7,36 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <section class="add-product">
         <form>
-            <input type="text" placeholder="Название" class="product-name">
-            <input type="text" placeholder="Цена" class="product-price">
-            <input type="text" value="Добавить">
+            <input type="text" placeholder="Название" class="product-name" required>
+            <input type="text" placeholder="Цена" class="product-price" required> <!-- required атрибут, для обязательного заполнения поля-->
+            <input type="submit" value="Добавить">
         </form>
     </section>
+
+    <section class="products">
+        <!-- <div class="product-card">
+            <p class="product-card-name">Велосипед</p>
+            <p class="product-card-price">40000</p>
+        </div>
+        <div class="product-card">
+            <p class="product-card-name">Самокат</p>
+            <p class="product-card-price">15000</p>
+        </div>
+        <div class="product-card">
+            <p class="product-card-name">Лыжи</p>
+            <p class="product-card-price">20000</p>
+        </div>
+        <div class="product-card">
+            <p class="product-card-name">Сноуборд</p>
+            <p class="product-card-price">25000</p>
+        </div> -->
+    </section>
+
     <script src="./script.js"></script>
+
 </body>
 </html>
+
