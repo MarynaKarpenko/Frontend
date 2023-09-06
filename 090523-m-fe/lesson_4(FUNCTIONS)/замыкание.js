@@ -64,14 +64,11 @@ quad(2)
 // user1('tigran') => true
 // user1('tigr')   => false
 function createPassword(pass) {
-    return function (arg) {
-        return pass === arg
+    return function (passLogin) {
+        console.log(pass === passLogin); 
     }
     
 }
-let user1 = createPassword('tigran')
-let arg = createPassword('tig');
-let arg2 = createPassword('tigran');
-console.log(user1());
-console.log(user1());
+let user1 = createPassword(123)
+user1 (123)
 
