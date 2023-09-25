@@ -14,8 +14,8 @@
 .card {
     position: relative;
 
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: auto;
 
     background-color: antiquewhite;
 
@@ -36,4 +36,21 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+.form_container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.form_container > form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    border: 1px solid black;
+    border-radius: 15px;
 }

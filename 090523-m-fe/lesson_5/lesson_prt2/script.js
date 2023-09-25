@@ -4,14 +4,27 @@ const div_container = document.createElement('div')
 // div_container.classList.add('test')
 div_container.className = 'container'
 
-const form = document.querySelector('form')
+const add_form = document.querySelector('.add_form')
+const update_form = document.querySelector('.update_form')
 
-form.onsubmit = (e) => {
+// const form = document.querySelector('form')
+
+add_form.onsubmit = (e) => {
     e.preventDefault()
-    let form_data = new FormData(form)
+    let form_data = new FormData(add_form)
     let data = Object.fromEntries(form_data)
-    data.id = Date.now()
-    console.log(data);
+    data.id = Math.max(users.length) ? Math.max(...users.map(elem => elem.id)) + 1 : 1
+
+    // data.id = Date.now()
+    // console.log(data);
+    addUser(data)
+}
+
+update_form.onsubmit = (e) => {
+    e.preventDefault()
+    let form_data = new FormData(update_form)
+    let {id, ...data} = Object.fromEntries(form_data)
+    updateUser(id, data)
 }
 
 div_root.append(div_container)
@@ -71,3 +84,22 @@ render(users)
 // Сформировались элементы, которые были сохранены в LS.
 // Примечание: если записи в LS нет - тогда нужно реднерить исходный массив
 
+
+// добавление нового пользователя
+function addUser(obj) {
+    users = [...users, obj]
+    rerender(users)
+}
+
+// изменение данных пользователей
+function updateUser(id, obj) {
+    let findUser = users.find(elem => elem.id == id)
+    if(findUser) {
+        findUser.name = obj.name
+        findUser.salary = obj.salary
+        rerender(users)
+    } else {
+        alert('ID does not exist')
+    }
+}
+render(users)
