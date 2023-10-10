@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_wrapper">
+        <form class="post_form">
+            <h2>Add new User</h2>
+            <input placeholder="name" name="name"/>
+            <input type="number" placeholder="age" name="age"/>
+            <input placeholder="salary" name="salary"/>
+            <input placeholder="job_id" name="job_id"/>
+            <input type="submit"/>
+        </form>
+
+        <form class="delete_form">
+            <h2>Delete User</h2>
+            <input type="number" placeholder="id" name="id"/>
+            <input type="submit"/>
+        </form>
+
+        <form class="update_form">
+            <h2>Update User</h2>
+            <input type="number" placeholder="id" name="id"/>
+            <input placeholder="name" name="name"/>
+            <input type="number" placeholder="age" name="age"/>
+            <input placeholder="salary" name="salary"/>
+            <input placeholder="job_id" name="job_id"/>
+            <input type="submit"/>
+        </form>
+    </div>
+    <div id="root"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

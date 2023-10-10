@@ -85,7 +85,7 @@ const renderCards = arr => {
         cardElement.addEventListener('click', function(){
             cardElement.style.backgroundColor = cardElement.style.backgroundColor === 'purple' ?
             'white' : 'purple';
-            cardElement.style.color = ardElement.style.color === 'white' ? 'black' : 'white';
+            cardElement.style.color = cardElement.style.color === 'white' ? 'black' : 'white';
             a_mail.style.color = a_mail.style.color === 'white' ? 'blue' : 'white';
 
         })
