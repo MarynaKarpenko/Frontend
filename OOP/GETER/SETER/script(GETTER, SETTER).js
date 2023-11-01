@@ -183,4 +183,26 @@ let obj = {
     }
 }
 obj.setFullName = 'Steven King';
-console.log(obj);
+// console.log(obj);
+
+
+class User{
+    constructor(name, age){
+        this.name = name,
+        this.age = age
+    }
+    set setAge(year){
+        this.age = 2023 - year
+    }
+}
+class newUser extends User {
+    constructor(name, age){
+        super(name, age)
+        this.isJob = false
+    }
+}
+let user1 = new newUser('Alex', 40)
+user1.setAge = 2000
+console.log(user1);
+console.log(user1.userInfo);
+
