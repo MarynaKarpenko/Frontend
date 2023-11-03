@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 30px 50px;
+    font-size: 24px;
+    position: relative;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.nav-menu span{
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 3px 10px;
+}
+
+/* ==================================================== */
+/*-----------------------MODAL WINDOW-------------------*/
+.login-form{
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 40px;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content{
+    background-color: beige;
+    border-radius: 50px;
+
+    position: relative;
+}
+.popup-content span{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+/*======================================================*/
+@media(max-width: 800px){
+    .nav-menu ul{
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background-color: blanchedalmond;
+        gap: 15px;
+
+        transform: translateX(100%);
+        transition: transform 0.5s;
+        /* display: none; */
+    }
+    .nav-menu ul.nav-menu-active{
+        /* display: flex; */
+
+        transform: translateX(0);
+    }
+    .nav-menu li{
+        border-bottom: 2px solid black;
+        padding: 15px 30px;
+    }
+    .nav-menu span {
+        display: inline;
+    }
+}
