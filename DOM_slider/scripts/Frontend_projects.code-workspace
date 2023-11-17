@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Frontend_Home_works"
+		},
+		{
+			"path": "../../../../../../Users/marii/OneDrive/Desktop/About me"
+		},
+		{
+			"path": "../../../../Алгоритмы"
+		},
+		{
+			"path": "../../REACT"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Frontend_projects"
+	}
+}

@@ -56,6 +56,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    display: none;
+}
+.popup.modal_active{
+    display: flex;
 }
 .popup-content{
     background-color: beige;

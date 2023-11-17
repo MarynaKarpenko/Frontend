@@ -29,3 +29,13 @@ burgerIcon.addEventListener('click', () => {
 
 // css: прописать стили для класса modal_active
 // если класс modal_active есть, то popup виден. если класса нет - то popup невиден
+
+const accountBtn = document.querySelector('.account_btn');
+const closeIconBtn = document.querySelector('.close_icon');
+const popup = document.querySelector('.popup');
+accountBtn.addEventListener('click', () => {
+  popup.classList.add('modal_active')
+});
+closeIconBtn.addEventListener('click', () => {
+  popup.classList.remove('modal_active')
+});
