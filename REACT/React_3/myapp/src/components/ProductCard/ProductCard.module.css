@@ -1,0 +1,14 @@
+.product_card_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+
+    margin: 10px;
+}
+.text_color{
+    color: blue;
+}
