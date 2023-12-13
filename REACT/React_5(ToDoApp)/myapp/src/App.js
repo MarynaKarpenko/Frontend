@@ -1,31 +1,33 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import AddForm from './components/AddForm/AddForm';
 import ToDoList from './components/ToDoList/ToDoList';
 
 function App() {
 
-  const start_todos = [
+  const start_todo = [
     {id: 1, title: 'Помыть руки', completed: true},
     {id: 2, title: 'Сделать зарядку', completed: false},
     {id: 3, title: 'Наконец изучить React', completed: true}
   ]
 
-  const [todos, setTodos] = useState(start_todos)
+  const defauktState = JSON.parse(localStorage.getItem('todos')) ?? start_todo
+
+  const [todos, setTodos] = useState(defauktState)
 
   const delTodoById = (id) => {
     const filtered_todos = todos.filter((elem) => elem.id !== id)
     setTodos(filtered_todos)
   }
 
-  const changeCompletedTodo = (id) => {
-    const change_todos = todos.map((elem) => {
-      if(elem.id === id){
+  const changeTodo = (id) => {
+    const changed_todos = todos.map(elem => {
+      if (elem.id === id){
         elem.completed = !elem.completed
       }
       return elem
     })
-    setTodos(change_todos)
+    setTodos(changed_todos)
   }
 
   const addTodo = (title) => {
@@ -37,10 +39,19 @@ function App() {
     setTodos([...todos, new_todo])
   }
 
+  useEffect(() => {
+    let data = JSON.parse(localStorage.getItem('todos'))
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('todos', JSON.stringify(todos))
+  }, [todos])
+  
+
   return (
     <div>
-      <AddForm/>
-      <ToDoList todos={todos} delTodoById={delTodoById} changeCompletedTodo={changeCompletedTodo}/>
+      <AddForm addTodo={addTodo}/>
+      <ToDoList todos={todos} delTodoById={delTodoById} changeTodo={changeTodo}/>
     </div>
   );
 }

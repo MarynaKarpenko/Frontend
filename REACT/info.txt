@@ -14,8 +14,12 @@ b)npm start
 ее можно востановить 
 npm i
 
-// ГЛАВА 2
-(Приведение приложения в очищенный вид)
+
+
+подключение react-router-dom
+npm i react-router-dom
+
+документация https://reactrouter.com/en/main/start/overview 
 
 
 

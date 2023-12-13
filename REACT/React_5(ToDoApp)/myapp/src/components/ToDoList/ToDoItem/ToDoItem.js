@@ -2,21 +2,16 @@
 
 function ToDoItem(props){
 
-    const {title, completed, id, delTodoById, changeCompletedTodo} = props
-
-    const card_styles = {
-        backgroundColor: completed ? 'green' : 'red'
-    }
+    const {title, completed, id, delTodoById, changeTodo} = props
 
     return(
-        <div className="todo_card" 
-        style={card_styles}
-        onDoubleClick={() => delTodoById(id)}
-        onClick={() => changeCompletedTodo(id)}
+        <div 
+            style={{backgroundColor: (completed) ? 'green' : 'red'}} 
+            className="todo_card"
+            onDoubleClick={() => delTodoById(id)}
+            onClick={() => changeTodo(id)}
         >
-
             <h2>{title}</h2>
-            <p>{completed+''}</p>
         </div>
     )
 }
