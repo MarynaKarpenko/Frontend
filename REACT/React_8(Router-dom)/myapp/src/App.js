@@ -6,16 +6,17 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import NotFoundPage from './pages/NotFoundPage';
+import UserInfoPage from './pages/UserInfoPage';
 
 function App() {
   return (
     <div>
-      <div></div>
-    <Header/>
     <Router>
+     <Header/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/about' element={<AboutPage/>}/>
+        <Route path='/about/:id' element={<UserInfoPage/>}/>
         <Route path='/contacts' element={<ContactPage/>}/>
         <Route path='*' element={<NotFoundPage/>}/>
       </Routes>
