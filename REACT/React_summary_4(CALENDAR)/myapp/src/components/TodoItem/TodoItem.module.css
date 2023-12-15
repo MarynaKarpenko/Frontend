@@ -1,0 +1,34 @@
+.card_container{
+    padding: 17px;
+    display: flex;
+}
+
+.card_p{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    padding: 17px;
+    font-size: 30px;
+    color: #ECF0F1;
+    width: 286px;
+    height: auto;
+}
+
+.button_card{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #000;
+    color: #000;
+    background: #E74C3C;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    opacity: 0;
+}
+
+.button_card:hover{
+    opacity: 1;
+}

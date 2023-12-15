@@ -1,0 +1,48 @@
+.todo_card {
+    width: 1088px;
+    height: auto;
+    border-radius: 20px;
+
+    background: #ECF0F1;
+
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.new_card_cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.day {
+    width: 80px;
+
+    border-radius: 20px 0px 0px 20px;
+    background: #34495E;
+    color: #ffffff;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.button{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #000;
+    color: #000;
+    background: #E74C3C;
+    position: absolute;
+    top: -5px;
+    right: -1010px;
+    opacity: 0;
+}
+
+.button:hover {
+    opacity: 1;
+}
