@@ -25,4 +25,10 @@ npm i react-router-dom
 ссылка на сетевой запрос https://jsonplaceholder.typicode.com/users
 
 
+установка реакт формы для инпутов npm i react-hook-form
+https://react-hook-form.com/
+
+
+установка реакт иконок npm i react-icons
+
 
