@@ -1,11 +1,10 @@
-
 import './App.css';
-import ProductCard from './components/ProductCard/ProductCard';
+import Count from './components/Count';
 
 function App() {
   return (
     <div>
-      <ProductCard/>
+      <Count/>
     </div>
   );
 }
