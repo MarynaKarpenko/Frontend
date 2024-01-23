@@ -31,7 +31,11 @@ https://react-hook-form.com/
 
 установка реакт иконок npm i react-icons
 
-Redux npm i redux react-redux
+Redux: npm i redux react-redux
+
+npm i redux-thunk
+
+npm i redux-persist
 
 
 
